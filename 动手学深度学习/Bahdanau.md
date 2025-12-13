@@ -5,4 +5,4 @@
 ## 核心改进
 将传统编码器 - 解码器中固定的上下文变量c，替换为随解码时间步t′动态变化的ct′​
 $$\mathbf{c}_{t'} = \sum_{t=1}^T \alpha(\mathbf{s}_{t' - 1}, \mathbf{h}_t) \mathbf{h}_t,$$
-![](assets/Bahdanau/file-20251213173627507.png)
+![600](assets/Bahdanau/file-20251213173627507.png)
