@@ -16,7 +16,8 @@
       "name": "Typst"
     },
     {
-      "name": "PDF"
+      "name": "PDF",
+      "openExportedFile": true
     },
     {
       "name": "Word (.docx)"
@@ -55,8 +56,12 @@
   "pandocPath": {
     "win32": "\"E:\\大一\\大创\\大创论文翻译\\英文转LaTex\\pandoc-3.6.4\\pandoc.exe\""
   },
-  "defaultExportDirectoryMode": "Auto",
+  "defaultExportDirectoryMode": "Custom",
   "openExportedFile": true,
   "env": {},
-  "showExportProgressBar": true
+  "showExportProgressBar": true,
+  "customDefaultExportDirectory": {
+    "win32": "E:\\Github\\Notebook\\导出文件"
+  },
+  "lastEditName": "PDF"
 }
