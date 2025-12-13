@@ -1,5 +1,7 @@
 [
   "templater-obsidian",
   "execute-code",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "obsidian-git",
+  "obsidian-custom-attachment-location"
 ]
