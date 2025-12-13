@@ -2,5 +2,7 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "./附件",
-  "uriCallbacks": true
+  "uriCallbacks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
