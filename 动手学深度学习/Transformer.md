@@ -38,7 +38,7 @@ Transformer 依然沿用了 **Encoder-Decoder** 的经典结构，但内部组�
 > 每个子层后都接了：残差连接 (Residual Connection) + 层归一化 (Layer Normalization)。
 > 公式：$LayerNorm(x + Sublayer(x))$。目的是防止梯度消失，加速收敛。
 
-### 3.2 Decoder Layer (解码器层)
+### 2 解码器层
 
 Decoder 比 Encoder 多了一个子层，共有三个：
 
@@ -61,7 +61,6 @@ Decoder 比 Encoder 多了一个子层，共有三个：
 3. **前馈神经网络 (FFN)**：同 Encoder。
     
 
----
 
 ## 4. 关键数据流转 (Data Flow)
 
