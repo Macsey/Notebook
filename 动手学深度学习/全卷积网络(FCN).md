@@ -42,9 +42,7 @@
     
 
 
-### 2. 关键工程技巧：双线性插值初始化 (The Initialization Trick)
-
-这是 `d2l` 这一节中最具工程智慧的地方。
+### 2. 关键工程技巧：[[双线性插值]]初始化 (The Initialization Trick)
 
 问题：
 
