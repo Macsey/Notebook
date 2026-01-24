@@ -82,7 +82,7 @@ $$L = \sum_{i,j \in V} h(x_{ij}) \left( u_j^\top v_i + b_i + c_j - \log x_{ij} \
 2. **压制高频词**：像 "the"-"is" 共现几百万次，Loss 会非常大。我们需要降低高频词的影响。
     
 
-**D2L 推荐的权重函数**：
+**权重函数**：
 
 $$h(x) = \min\left(1, \left(\frac{x}{x_{max}}\right)^\alpha\right)$$
 
@@ -92,8 +92,6 @@ $$h(x) = \min\left(1, \left(\frac{x}{x_{max}}\right)^\alpha\right)$$
     
 - 当共现次数超过 $x_{max}$，权重锁定为 1（不再增加）。
     
-
----
 
 ## 5. CS 学生实现的关注点 (Implementation Notes)
 
@@ -124,7 +122,7 @@ $$h(x) = \min\left(1, \left(\frac{x}{x_{max}}\right)^\alpha\right)$$
 
 ---
 
-## 6. 总结 (Cheat Sheet)
+## 6. 总结 
 
 - **GloVe 是什么？** 一个带权重的矩阵分解模型。
     
