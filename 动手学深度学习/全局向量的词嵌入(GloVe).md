@@ -93,9 +93,8 @@ $$h(x) = \min\left(1, \left(\frac{x}{x_{max}}\right)^\alpha\right)$$
 - 当共现次数超过 $x_{max}$，权重锁定为 1（不再增加）。
     
 
-## 5. CS 学生实现的关注点 (Implementation Notes)
+## 5. 细节
 
-在 D2L 的代码实践中，有几个细节值得注意：
 
 1. **共现矩阵的构建**：
     
@@ -120,8 +119,6 @@ $$h(x) = \min\left(1, \left(\frac{x}{x_{max}}\right)^\alpha\right)$$
     - 通常 $|C| \ll |D|$，所以对于超大数据集，GloVe 往往训练得更快。
         
 
----
-
 ## 6. 总结 
 
 - **GloVe 是什么？** 一个带权重的矩阵分解模型。
@@ -132,7 +129,3 @@ $$h(x) = \min\left(1, \left(\frac{x}{x_{max}}\right)^\alpha\right)$$
     
 - **优点？** 训练快（利用矩阵），类比效果好（保留了向量线性结构），对全局统计利用充分。
     
-- **D2L 里的位置？** 它是 14.x 章节中，继 Word2Vec 之后对词嵌入技术的进一步完善。
-    
-
-如果你需要 GloVe 的 **PyTorch 代码实现**（包含手动构建共现矩阵的部分），随时告诉我，我可以为你写一个基于 D2L 风格的 Demo。
