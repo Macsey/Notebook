@@ -122,9 +122,9 @@ BERT 不依赖人工标注数据，而是通过两个**自监督任务**进行�
     
     - 前向传播逻辑：
         
-        Python
         
-        ```
+        
+        ```Python
         def forward(self, tokens, segments, ...):
             # 1. 骨干提取特征
             encoded_X = self.encoder(tokens, segments, ...)
@@ -140,7 +140,17 @@ BERT 不依赖人工标注数据，而是通过两个**自监督任务**进行�
         ```
         
 
----
+
+
+
+
+
+
+
+
+
+
+
 
 ## 5. 重点思考与练习
 
