@@ -52,7 +52,7 @@ ELMo 的双向是**“伪双向”**（Shallow Bidirectionality）。
 
 ---
 
-### 3. ELMo 的绝活：层级加权 (Layer Aggregation)
+### 3. [[ELMo 的绝活：层级加权 (Layer Aggregation)]]
 
 BERT 通常取最后一层的输出，但 ELMo 认为**“每一层学到的东西都不一样”**：
 
