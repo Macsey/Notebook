@@ -26,17 +26,13 @@ $$Input = \text{TokenEmbed} + \text{SegmentEmbed} + \text{PositionalEmbed}$$
 - **特殊 Token**：
     
     - `<cls>`: 放在句首，用于存储**整个句子的分类特征** (Classification)。
-        
     - `<sep>`: 分隔符 (Separator)。
-        
 - **格式**：
     
     - 单句：`<cls> Sentence <sep>`
-        
     - 句对：`<cls> Sentence A <sep> Sentence B <sep>`
-        
 
-### B. 三种 Embedding 详解
+### B. 三种 Embedding 
 
 1. **词元嵌入 (Token Embeddings)**:
     
@@ -52,12 +48,11 @@ $$Input = \text{TokenEmbed} + \text{SegmentEmbed} + \text{PositionalEmbed}$$
         
 3. **位置嵌入 (Position Embeddings)**:
     
-    - **关键点**：与原始 Transformer (Sinusoidal) 不同，BERT 的位置向量是 **可学习的 (Learnable)**。
+    - **关键点**：与原始 Transformer (Sinusoidal) 不同，BERT 的位置向量是 **可学习的 。
         
     - 最大长度通常限制为 1000 (或 512)。
         
 
----
 
 ## 3. 预训练任务 (Pre-training Tasks)
 
