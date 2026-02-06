@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: 表格
+  - type: list
+    name: 视图
+    order:
+      - file.name
+      - file.backlinks
+      - file.ctime
+      - file.folder
+      - file.mtime
+      - file.tags
+    markers: number
+    indentProperties: false
