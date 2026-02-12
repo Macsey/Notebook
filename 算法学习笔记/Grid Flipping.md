@@ -1,6 +1,6 @@
 
 
-# 算法笔记：网格翻转与计数 (Grid Flipping)
+# Grid Flipping
 
 ### 1. 核心思维 (Key Insight)
 
@@ -61,9 +61,9 @@ $$\text{Total Black} = i \times (M - j) + j \times (N - i)$$
 
 ### 4. C++ 代码模板
 
-C++
 
-```
+
+```C++
 #include <iostream>
 using namespace std;
 
